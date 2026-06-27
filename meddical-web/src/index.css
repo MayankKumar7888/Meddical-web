@@ -73,10 +73,6 @@
   line-height: 40px;
 }
 
-
-/* // navbar */
-/* // navbar */
-
 .navbar {
   background-color: var(--bg-clr);
 }
@@ -244,10 +240,6 @@
   font-weight: 600;
 }
 
-
-/* // hero section  */
-/* // hero section  */
-
 .hero-section {
   width: 100%;
   height: 100vh;
@@ -337,8 +329,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* // BookAppointment section */
-/* // BookAppointment section */
 
 
 .BookAppointment-section {
@@ -384,8 +374,6 @@
   vertical-align: middle;
 }
 
-/* // meddical section */
-/* // meddical section */
 
 .meddical-section {
   justify-content: center;
@@ -439,8 +427,6 @@
   color: var(--txt1-clr);
 }
 
-/* // poster section */
-/* // poster section */
 
 
 .poster {
@@ -531,8 +517,6 @@
 }
 
 
-/* // care section */
-/* // care section */
 
 .care-section {
   display: flex;
@@ -571,8 +555,6 @@
   color: var(--txt4-clr);
 }
 
-/* // Appointment section */
-/* // Appointment section */
 
 .Appointment-section {
   background:
@@ -596,7 +578,6 @@
   font-family: var(--font2);
   font-weight: 400;
   font-size: 16px;
-  /* text-align: center; */
   color: #212124;
 }
 
@@ -856,8 +837,6 @@
   background-image: url(./assets/doctor4.png);
   background-size: cover;
   border-radius: 5px;
-  /* min-height: 400px;
-  max-height: 600px; */
 }
 
 .quote-section.MuiContainer-root {
@@ -865,12 +844,10 @@
   align-items: center;
   justify-content: center;
   min-height: 400px;
-  /* background-image: url(./assets/poster3.jpg); */
   background:
     linear-gradient(rgba(31, 43, 108, 0.8),
       rgba(31, 43, 108, 0.8)),
     url("./assets/poster3.jpg");
-  /* background-color: #BFD2F8; */
   background-size: cover;
 }
 
@@ -884,14 +861,12 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 140%;
-  /* text-align: center; */
   color: var(--txt3-clr);
 }
 
 .quote-name.MuiTypography-root {
   font-family: var(--font2);
   font-size: 22px;
-  /* text-align: center; */
   color: var(--txt3-clr);
 }
 
@@ -906,11 +881,7 @@
 .checkup-icon.MuiSvgIcon-root {
   position: absolute;
   right: 12%;
-  /* top: 50.9%; */
   background-color: var(--bg-clr);
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
   height: 65px;
   width: 65px;
   border-radius: 50%;
