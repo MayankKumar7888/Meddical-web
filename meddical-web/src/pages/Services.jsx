@@ -1,13 +1,10 @@
 import SectionHeading from "../components/SectionHeading"
-import DoctorCard from "../Components/DoctorCard"
-import NewsSlider from "../Components/NewsSlider"
 import ContactCards from "../Components/ContactCards"
 import { Container } from "@mui/material"
 
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import { NavLink } from "react-router-dom"
 import PageHero from "../Components/PageHero"
 import { Grid } from "@mui/material";
 
@@ -16,14 +13,10 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
+
 import Doctor5 from '../assets/doctor5.png'
 import HealingIcon from '@mui/icons-material/Healing';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import { Box, IconButton } from "@mui/material";
-import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
-import { useState, useEffect } from "react";
-
-import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
 
 export default function Services() {

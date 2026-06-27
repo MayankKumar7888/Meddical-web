@@ -3,12 +3,9 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-
-import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import { TextField, MenuItem } from "@mui/material";
-
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import GroupsIcon from '@mui/icons-material/Groups';
 import PaymentsIcon from '@mui/icons-material/Payments';
@@ -17,17 +14,6 @@ import HealingIcon from '@mui/icons-material/Healing';
 import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import BloodtypeIcon from '@mui/icons-material/Bloodtype';
-
-import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
-import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
-import FormatAlignRightIcon from '@mui/icons-material/FormatAlignRight';
-import FormatAlignJustifyIcon from '@mui/icons-material/FormatAlignJustify';
-import Stack from '@mui/material/Stack';
-import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
-import { red } from "@mui/material/colors";
-import { Card, CardContent } from "@mui/material";
-import CardMedia from '@mui/material/CardMedia';
 import SectionHeading from "../components/SectionHeading";
 import DoctorCard from "../Components/DoctorCard";
 import NewsSlider from "../Components/NewsSlider";

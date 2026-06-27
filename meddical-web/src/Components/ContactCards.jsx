@@ -4,7 +4,6 @@ import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import MailIcon from '@mui/icons-material/Mail';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import { Box } from '@mui/material';
 
 const services = [
     {

@@ -10,8 +10,6 @@ import Divider from '@mui/material/Divider';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { yellow } from '@mui/material/colors';
-import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { Box, Container, Typography } from '@mui/material';
 
 

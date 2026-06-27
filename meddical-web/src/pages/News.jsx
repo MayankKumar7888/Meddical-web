@@ -1,8 +1,6 @@
-// import {  Box } from "@mui/material";
 import { Container } from "@mui/material";
 import {
     Grid,
-    Card,
     CardMedia,
     CardContent,
     Typography,
