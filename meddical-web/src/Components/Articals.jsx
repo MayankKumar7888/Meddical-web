@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Card, CardMedia, Grid, Typography } from "@mui/material";
+import { Card, CardMedia, Grid, Typography } from "@mui/material";
 
 export default function Articals({ articals = [] }) {
     return (

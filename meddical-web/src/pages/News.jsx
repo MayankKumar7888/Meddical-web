@@ -53,7 +53,7 @@ export default function News() {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare.",
         },
         {
-            id: 1,
+            id: 3,
             image: Doctor8,
             date: "Monday 05, September 2021",
             author: "By Author",
@@ -64,7 +64,7 @@ export default function News() {
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et....",
         },
         {
-            id: 3,
+            id: 4,
             image: Doctor9,
             date: "Tuesday 06, September 2021",
             author: "By Author",

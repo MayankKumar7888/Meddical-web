@@ -208,7 +208,6 @@ export default function Home() {
 
                                 <Grid size={{ xs: 12, md: 6 }}> <TextField className="form-field" fullWidth label="Phone" placeholder="(237) 681-812-255" /></Grid>
                                 <Grid size={{ xs: 12, md: 6 }}>
-                                    {/* <TextField fullWidth type="date" label="Date"  /> */}
                                     <TextField className="form-field" fullWidth label="Date" placeholder="mm/dd/yyyy" InputLabelProps={{ shrink: true }} />
                                 </Grid>
 
