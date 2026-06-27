@@ -72,16 +72,7 @@ export default function Header() {
 
     return (
         <>
-            {/* <Box className='header-section' sx={{ py: 1, flexGrow: 1 }}> */}
             <Container maxWidth="xl" className='header-section' sx={{ py: 1, flexGrow: 1 }}>
-                {/* <Box sx={{ display: { xs: 'block', sm: 'none' } }}>
-                    <marquee>
-                        <PhoneInTalkIcon className='header-icon' /> Emergency: (237) 681-812-255 &nbsp;&nbsp;&nbsp;&nbsp;
-                        <AccessTimeIcon className='header-icon' /> Work Hour: 09:00 - 20:00 Everyday &nbsp;&nbsp;&nbsp;&nbsp;
-                        <LocationOnIcon className='header-icon' /> Location: 0123 Some Place
-                    </marquee>
-                </Box> */}
-
                 <Box className='header-marquee-box' sx={{ display: { xs: 'block', md: 'none' } }}>
                     <marquee className="header-marquee" behavior="scroll" direction="left" scrollamount="3" loop="infinite">
                         <PhoneInTalkIcon className='header-icon' />&nbsp;&nbsp;&nbsp; Emergency: (237) 681-812-255 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -93,17 +84,13 @@ export default function Header() {
                     </marquee>
                 </Box>
                 <Grid container sx={{ display: { xs: 'none', md: 'flex' } }}>
-                    {/* Logo Section */}
                     <Grid size={{ sm: 4, md: 2, lg: 4 }} sx={{ display: { xs: 'none', sm: 'block' } }} >
                         <Box className='header-itembox'>
                             <Typography className='header-logo' variant="h6" noWrap sx={{ justifyContent: { xs: 'start', sm: 'center', md: 'start' }, fontWeight: 700 }}>
                                 <span className='header-logo-text'>Med</span><span>dical</span>
                             </Typography>
                         </Box>
-                        {/* <Typography className=''  */}
                     </Grid>
-
-                    {/* Address */}
                     <Grid size={{ xs: 12, sm: 6, md: 3.4, lg: 2.5 }} >
                         <Box className='header-itembox' sx={{ px: 2 }}>
                             <Box className='header-innerbox' sx={{ display: 'flex', gap: 1 }} >
@@ -120,7 +107,6 @@ export default function Header() {
                         </Box>
                     </Grid>
 
-                    {/* Phone */}
                     <Grid size={{ xs: 12, sm: 6, md: 3.6, lg: 3 }} >
                         <Box className='header-itembox' sx={{ px: 2 }}>
                             <Box className='header-innerbox' sx={{ display: 'flex', gap: 1 }}>
@@ -137,7 +123,6 @@ export default function Header() {
                         </Box>
                     </Grid>
 
-                    {/* Email */}
                     <Grid size={{ xs: 12, sm: 6, md: 3, lg: 2.5 }} >
                         <Box className='header-itembox' sx={{ px: 2 }}>
                             <Box className='header-innerbox' sx={{ display: 'flex', gap: 1 }}>

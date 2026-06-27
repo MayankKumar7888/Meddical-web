@@ -1,9 +1,7 @@
 import SectionHeading from "../components/SectionHeading"
 import PageHero from "../Components/PageHero"
-// import DoctorCard from "../Components/DoctorCard"
 import NewsSlider from "../Components/NewsSlider"
 import ContactCards from "../Components/ContactCards"
-// import { Container } from "@mui/material"
 
 import { Box, IconButton, Grid, Container, Typography } from "@mui/material";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
@@ -38,26 +36,6 @@ const testimonials = [
     },
 ];
 
-// const doctors = [
-//     {
-//         id: 1,
-//         img: Doctor1,
-//         title: "Dr. John Doe",
-//         subtitle: "Neurology",
-//     },
-//     {
-//         id: 2,
-//         img: Doctor2,
-//         title: "Dr. Sarah Smith",
-//         subtitle: "Cardiology",
-//     },
-//     {
-//         id: 3,
-//         img: Doctor3,
-//         title: "Dr. Michael Brown",
-//         subtitle: "Orthopedics",
-//     },
-// ];
 const cards = [
     {
         id: 1,

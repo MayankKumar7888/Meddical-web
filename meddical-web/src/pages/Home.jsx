@@ -28,13 +28,6 @@ import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import { red } from "@mui/material/colors";
 import { Card, CardContent } from "@mui/material";
 import CardMedia from '@mui/material/CardMedia';
-// import Doctor1 from "../assets/DoctorCard1.png";
-// import Doctor2 from "../assets/DoctorCard2.png";
-// import Doctor3 from "../assets/DoctorCard3.png";
-// import CardActions from '@mui/material/CardActions';
-// import LinkedInIcon from '@mui/icons-material/LinkedIn';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import FacebookIcon from '@mui/icons-material/Facebook';
 import SectionHeading from "../components/SectionHeading";
 import DoctorCard from "../Components/DoctorCard";
 import NewsSlider from "../Components/NewsSlider";
@@ -72,7 +65,6 @@ export default function Home() {
                     <Grid className='hero-text-box' size={{ xm: 12, sm: 12, md: 8, lg: 6 }}>
                         <Typography className='hero-subheading' varient='h6'>Caring for Life</Typography>
                         <Typography className='hero-heading' varient='h1'>Leading the Way <Typography variant='br' sx={{ display: { xs: 'none', sm: 'block' } }}></Typography> in Medical Excellence</Typography>
-                        {/* <Button></Button> */}
                         <Button className="hero-btn" size="large" sx={{ mt: 4, px: 3, py: 1 }}>Our Services</Button>
                     </Grid>
                     <Grid size={{ xm: 12, sm: 12, md: 8, lg: 6 }} className='hero-circle-top'></Grid>
@@ -118,10 +110,6 @@ export default function Home() {
             </Container>
             <Container maxWidth='xl'>
                 <Grid container className='ourservices-section'>
-                    {/* <Grid size={12} sx={{ py: 3 }}>
-                        <Typography className='meddical-subheading' variant='h6'>Care you can believe in</Typography>
-                        <Typography className='meddical-heading' variant='h2'>Our Services</Typography>
-                    </Grid> */}
                     <SectionHeading subHeading="Care you can believe in" heading="Our Services" />
                     <Grid size={12} container spacing={2} sx={{ py: 4 }} >
                         <Grid size={{ xm: 12, sm: 12, md: 4, lg: 3 }} container >

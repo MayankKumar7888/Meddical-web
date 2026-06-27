@@ -13,7 +13,6 @@ import {
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import PersonIcon from "@mui/icons-material/Person";
-// import DoctorCard1 from "../assets/doctorcard1.png";
 import DoctorCard2 from "../assets/doctorcard2.png";
 import Doctor3 from "../assets/doctorcard3.png";
 import Doctor6 from "../assets/doctor6.jpg"
@@ -150,7 +149,6 @@ export default function News() {
                         ))}
                     </Grid>
 
-                    {/* Sidebar */}
                     <Grid size={{ xs: 12, md: 4 }}>
                         <Box sx={{ top: 20, position: "sticky", bgcolor: "#f5f5f5", p: 2, borderRight: "1px solid #ddd" }} >
                             <Typography className='contactpage-heading' variant='h2' sx={{ mb: 3 }}>Recent Posts</Typography>

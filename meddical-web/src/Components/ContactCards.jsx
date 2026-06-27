@@ -46,12 +46,10 @@ export default function ContactCards() {
                         sx={{ aspectRatio: 1 / 1, boxShadow: 4 }}
                         onClick={() => setSelected(index)}
                     >
-                        {/* <Box> */}
                         {service.icon}
                         <span className='contactCard-heading'>{service.title}</span>
                         <span className='contactCard-subheading1'>{service.subtitle1}</span>
                         <span className='contactCard-subheading2'>{service.subtitle2}</span>
-                        {/* </Box> */}
                     </Grid>
                 ))}
             </Grid>

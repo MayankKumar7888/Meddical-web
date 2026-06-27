@@ -34,13 +34,8 @@ export default function Footer() {
             setError("Enter a valid email");
             return;
         }
-
         setError("");
-
         console.log("Submitted Email:", email);
-
-        // API Call Here
-
         alert("Email submitted successfully!");
 
         setEmail("");
@@ -59,8 +54,8 @@ export default function Footer() {
                     </Grid>
                     <Grid item className="box2" size={{ xs: 12, md: 3 }} sx={{ display: 'flex', alignItems: { xs: 'start', md: 'start' } }}>
                         <Box className='heading' sx={{ mb: { xs: 1, md: 3 }, mt: { xs: 3, md: 0 } }}>Important Links</Box>
-                        <NavLink to="/appointment" className='link'>Appointment</NavLink>
-                        <NavLink to="/doctor" className='link'>Doctors</NavLink>
+                        <NavLink to="#" className='link'>Appointment</NavLink>
+                        <NavLink to="/doctors" className='link'>Doctors</NavLink>
                         <NavLink to="/services" className='link'>Services</NavLink>
                         <NavLink to="/about" className='link'>About Us</NavLink>
                     </Grid>
@@ -102,7 +97,7 @@ export default function Footer() {
                     <Divider className='line' />
                     <Grid item className="box5" size={{ xs: 12, md: 12 }} sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: { xs: 2, md: 0 } }}>
                         <div className='box1'>
-                            <p>© 2021 Hospital’s name All Rights Reserved by PNTEC-LTD</p>
+                            <p>© 2026 Hospital’s name All Rights Reserved by PNTEC-LTD</p>
                         </div>
                         <div className='box2'>
                             <span><LinkedInIcon className='media-icon' /></span>
