@@ -23,8 +23,9 @@ import Mediacard1 from "../assets/mediacard1.png";
 import Mediacard2 from "../assets/mediacard2.png";
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Articals from "../components/Articals.jsx";
-import Heading from "../components/Heading";
+import Heading from "../components/Heading.jsx";
 import ContactCards from "../components/ContactCards.jsx";
+import PageHero from "../components/PageHero.jsx";
 
 export default function News() {
     const newsData = [
@@ -114,6 +115,12 @@ export default function News() {
     ];
     return (
         <>
+            <Container maxWidth="xl" sx={{ py: 10 }} className="page-hero-section">
+                <PageHero
+                    title="Blog Posts"
+                    breadcrumbs="News"
+                />
+            </Container>
             <Container maxWidth="xl">
                 <Grid container spacing={2} sx={{ py: 5 }} >
                     <Grid size={{ xs: 12, md: 8 }}>
