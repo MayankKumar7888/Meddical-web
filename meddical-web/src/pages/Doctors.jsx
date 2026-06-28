@@ -1,7 +1,7 @@
-import Sectionheading from "../Components/Sectionheading"
-import PageHero from "../Components/PageHero"
-import NewsSlider from "../Components/NewsSlider"
-import ContactCards from "../Components/ContactCards"
+import Sectionheading from "../components/SectionHeading"
+import PageHero from "../components/PageHero"
+import NewsSlider from "../components/NewsSlider"
+import ContactCards from "../components/ContactCards"
 
 import { Box, IconButton, Grid, Container, Typography } from "@mui/material";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";

@@ -1,11 +1,11 @@
-import Sectionheading from "../Components/Sectionheading"
-import ContactCards from "../Components/ContactCards"
+import Sectionheading from "../components/SectionHeading"
+import ContactCards from "../components/ContactCards"
 import { Container } from "@mui/material"
 
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import PageHero from "../Components/PageHero"
+import PageHero from "../components/PageHero"
 import { Grid } from "@mui/material";
 
 import Card from '@mui/material/Card';

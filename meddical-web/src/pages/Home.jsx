@@ -14,10 +14,10 @@ import HealingIcon from '@mui/icons-material/Healing';
 import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import BloodtypeIcon from '@mui/icons-material/Bloodtype';
-import Sectionheading from "../Components/Sectionheading";
-import DoctorCard from "../Components/DoctorCard";
-import NewsSlider from "../Components/NewsSlider";
-import ContactCards from "../Components/ContactCards";
+import Sectionheading from "../components/SectionHeading";
+import DoctorCard from "../components/DoctorCard";
+import NewsSlider from "../components/NewsSlider";
+import ContactCards from "../components/ContactCards";
 
 
 

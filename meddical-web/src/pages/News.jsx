@@ -22,9 +22,9 @@ import Mediacard from "../assets/mediacard.png"
 import Mediacard1 from "../assets/mediacard1.png"
 import Mediacard2 from "../assets/mediacard2.png"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import Articals from "../Components/Articals";
-import Sectionheading from "../Components/Sectionheading";
-import ContactCards from "../Components/ContactCards";
+import Articals from "../components/Articals";
+import Sectionheading from "../components/SectionHeading";
+import ContactCards from "../components/ContactCards";
 
 export default function News() {
     const newsData = [

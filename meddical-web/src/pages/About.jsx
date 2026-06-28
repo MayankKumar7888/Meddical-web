@@ -1,13 +1,13 @@
-import Sectionheading from "../Components/Sectionheading"
-import DoctorCard from "../Components/DoctorCard"
-import NewsSlider from "../Components/NewsSlider"
-import ContactCards from "../Components/ContactCards"
+import Sectionheading from "../components/SectionHeading"
+import DoctorCard from "../components/DoctorCard"
+import NewsSlider from "../components/NewsSlider"
+import ContactCards from "../components/ContactCards"
 
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import { NavLink } from "react-router-dom"
-import PageHero from "../Components/PageHero"
+import PageHero from "../components/PageHero"
 
 import { Box, IconButton, Grid, Container } from "@mui/material";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";

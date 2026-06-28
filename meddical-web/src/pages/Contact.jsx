@@ -1,7 +1,7 @@
-import Sectionheading from "../Components/Sectionheading"
-import NewsSlider from "../Components/NewsSlider"
+import Sectionheading from "../components/SectionHeading"
+import NewsSlider from "../components/NewsSlider"
 import { Container, TextField } from "@mui/material"
-import PageHero from "../Components/PageHero"
+import PageHero from "../components/PageHero"
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
