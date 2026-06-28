@@ -1,4 +1,4 @@
-import Sectionheading from "../components/SectionHeading"
+import Heading from "../components/Heading"
 import DoctorCard from "../components/DoctorCard"
 import NewsSlider from "../components/NewsSlider"
 import ContactCards from "../components/ContactCards"
@@ -117,17 +117,17 @@ export default function About() {
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <Sectionheading subHeading="Trusted Care" heading="Our Doctors" />
+                <Heading subHeading="Trusted Care" heading="Our Doctors" />
                 <DoctorCard />
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <Sectionheading subHeading="Better information, Better health" heading="News" />
+                <Heading subHeading="Better information, Better health" heading="News" />
                 <NewsSlider />
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <Sectionheading subHeading="Get in touch" heading="Contact" />
+                <Heading subHeading="Get in touch" heading="Contact" />
                 <ContactCards />
             </Container >
         </>

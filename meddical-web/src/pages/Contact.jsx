@@ -1,4 +1,4 @@
-import Sectionheading from "../components/SectionHeading"
+import Heading from "../components/Heading"
 import NewsSlider from "../components/NewsSlider"
 import { Container, TextField } from "@mui/material"
 import PageHero from "../components/PageHero"
@@ -106,7 +106,7 @@ export default function Contact() {
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <Sectionheading subHeading="Better information, Better health" heading="News" />
+                <Heading subHeading="Better information, Better health" heading="News" />
                 <NewsSlider />
             </Container >
 
