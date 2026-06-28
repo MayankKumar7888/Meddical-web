@@ -1,7 +1,7 @@
 import Heading from "../components/Heading"
-import Pagehero from "../components/Pagehero"
-import Newsslider from "../components/Newsslider"
-import Contactcards from "../components/Contactcards"
+import PageHero from "../components/PageHero"
+import NewsSlider from "../components/NewsSlider"
+import ContactCards from "../components/ContactCards"
 
 import { Box, IconButton, Grid, Container, Typography } from "@mui/material";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
@@ -100,7 +100,7 @@ export default function Doctors() {
     return (
         <>
             <Container maxWidth="xl" sx={{ py: 10 }} className="page-hero-section">
-                <Pagehero
+                <PageHero
                     title="Our Doctors"
                     breadcrumbs="Doctors"
                 />
@@ -151,12 +151,12 @@ export default function Doctors() {
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Better information, Better health" heading="News" />
-                <Newsslider />
+                <NewsSlider />
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Get in touch" heading="Contact" />
-                <Contactcards />
+                <ContactCards />
             </Container >
         </>
     )

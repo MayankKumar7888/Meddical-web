@@ -1,11 +1,11 @@
 import Heading from "../components/Heading";
-import Contactcards from "../components/Contactcards"
+import ContactCards from "../components/ContactCards"
 import { Container } from "@mui/material"
 
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Pagehero from "../components/Pagehero"
+import PageHero from "../components/PageHero"
 import { Grid } from "@mui/material";
 
 import Card from '@mui/material/Card';
@@ -63,7 +63,7 @@ export default function Services() {
     return (
         <>
             <Container maxWidth="xl" sx={{ py: 10 }} className="page-hero-section">
-                <Pagehero
+                <PageHero
                     title="Our Services"
                     breadcrumbs="Services"
                 />
@@ -99,7 +99,7 @@ export default function Services() {
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Get in touch" heading="Contact" />
-                <Contactcards />
+                <ContactCards />
             </Container >
         </>
     )

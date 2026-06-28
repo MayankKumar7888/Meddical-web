@@ -1,13 +1,13 @@
 import Heading from "../components/Heading"
-import Doctorcard from "../components/Doctorcard"
-import Newsslider from "../components/Newsslider"
-import Contactcards from "../components/Contactcards"
+import DoctorCard from "../components/DoctorCard"
+import NewsSlider from "../components/NewsSlider"
+import ContactCards from "../components/ContactCards"
 
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import { NavLink } from "react-router-dom"
-import Pagehero from "../components/Pagehero"
+import PageHero from "../components/PageHero"
 
 import { Box, IconButton, Grid, Container } from "@mui/material";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
@@ -50,7 +50,7 @@ export default function About() {
     return (
         <>
             <Container maxWidth="xl" sx={{ py: 10 }} className="page-hero-section">
-                <Pagehero
+                <PageHero
                     title="About Us"
                     breadcrumbs="About"
                 />
@@ -118,17 +118,17 @@ export default function About() {
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Trusted Care" heading="Our Doctors" />
-                <Doctorcard />
+                <DoctorCard />
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Better information, Better health" heading="News" />
-                <Newsslider />
+                <NewsSlider />
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Get in touch" heading="Contact" />
-                <Contactcards />
+                <ContactCards />
             </Container >
         </>
     )

@@ -24,7 +24,7 @@ import Mediacard2 from "../assets/mediacard2.png"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Articals from "../components/Articals";
 import Heading from "../components/Heading";
-import Contactcards from "../components/Contactcards";
+import ContactCards from "../components/ContactCards";
 
 export default function News() {
     const newsData = [
@@ -178,7 +178,7 @@ export default function News() {
             </Container >
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Get in touch" heading="Contact" />
-                <Contactcards />
+                <ContactCards />
             </Container >
         </>
     );
