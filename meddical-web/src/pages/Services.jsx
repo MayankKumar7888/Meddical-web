@@ -1,20 +1,17 @@
 import Heading from "../components/Heading";
-import ContactCards from "../components/ContactCards"
-import { Container } from "@mui/material"
-
+import ContactCards from "../components/ContactCards";
+import { Container } from "@mui/material";
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import PageHero from "../components/PageHero"
 import { Grid } from "@mui/material";
-
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
-
-import Doctor5 from '../assets/doctor5.png'
+import Doctor5 from '../assets/doctor5.png';
 import HealingIcon from '@mui/icons-material/Healing';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 

@@ -3,9 +3,9 @@ import { Box, Grid, Card, CardContent, Typography, IconButton, Container, } from
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import MediaCard from "../assets/mediaCard.png"
-import MediaCard1 from "../assets/mediaCard1.png"
-import MediaCard2 from "../assets/mediaCard2.png"
+import MediaCard from "../assets/mediaCard.png";
+import MediaCard1 from "../assets/mediaCard1.png";
+import MediaCard2 from "../assets/mediaCard2.png";
 import { CardMedia } from "@mui/material";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import FavoriteIcon from '@mui/icons-material/Favorite';
