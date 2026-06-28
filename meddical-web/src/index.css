@@ -245,7 +245,7 @@
   height: 100vh;
   overflow: hidden !important;
   position: relative;
-  background-image: url(./assets/hero-bg.png);
+  background-image: url(./assets/hero-bg.webp);
   background-position: center center;
   background-size: cover;
 }
@@ -257,7 +257,7 @@
 
 .hero-img {
   position: absolute;
-  background-image: url(./assets/hero-bg2.png);
+  background-image: url(./assets/hero-bg2.webp);
   background-size: cover;
   height: 100%;
   z-index: 2;
@@ -505,13 +505,13 @@
 }
 
 .service-checkupImg {
-  background-image: url(./assets/checkup.jpg);
+  background-image: url(./assets/checkup.webp);
   background-size: cover;
   border-radius: 5px;
 }
 
 .service-doctorImg {
-  background-image: url(./assets/doctor.jpg);
+  background-image: url(./assets/doctor.webp);
   background-size: cover;
   border-radius: 5px;
 }
@@ -834,7 +834,7 @@
 }
 
 .about-checkupImg {
-  background-image: url(./assets/doctor4.png);
+  background-image: url(./assets/doctor4.webp);
   background-size: cover;
   border-radius: 5px;
 }
@@ -847,7 +847,7 @@
   background:
     linear-gradient(rgba(31, 43, 108, 0.8),
       rgba(31, 43, 108, 0.8)),
-    url("./assets/poster3.jpg");
+    url(./assets/poster3.jpg);
   background-size: cover;
 }
 

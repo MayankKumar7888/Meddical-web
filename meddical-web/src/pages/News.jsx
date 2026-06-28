@@ -13,7 +13,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import PersonIcon from "@mui/icons-material/Person";
 import Doctorcard2 from "../assets/doctorcard2.png";
 import Doctor3 from "../assets/doctorcard3.png";
-import Doctor6 from "../assets/doctor6.jpg";
+import Doctor6 from "../assets/doctor6.webp";
 import Doctor7 from "../assets/doctor7.jpg";
 import Doctor8 from "../assets/doctor8.jpg";
 import Doctor9 from "../assets/doctor9.jpg";
