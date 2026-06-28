@@ -1,7 +1,4 @@
-import Heading from "../components/Heading"
-import NewsSlider from "../components/NewsSlider"
-import { Container, TextField } from "@mui/material"
-import PageHero from "../components/PageHero"
+import { Container, TextField } from "@mui/material";
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -12,6 +9,10 @@ import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import MailIcon from '@mui/icons-material/Mail';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
+
+import Heading from "../components/Heading";
+import NewsSlider from "../components/NewsSlider";
+import PageHero from "../components/PageHero";
 
 
 
