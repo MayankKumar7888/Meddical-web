@@ -1,7 +1,7 @@
-import Heading from "../components/Heading";
-import PageHero from "../components/PageHero";
-import NewsSlider from "../components/NewsSlider";
-import ContactCards from "../components/ContactCards";
+import Heading from "../components/Heading.jsx";
+import PageHero from "../components/PageHero.jsx";
+import NewsSlider from "../components/NewsSlider.jsx";
+import ContactCards from "../components/ContactCards.jsx";
 import { Box, IconButton, Grid, Container, Typography } from "@mui/material";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import { useState, useEffect } from "react";

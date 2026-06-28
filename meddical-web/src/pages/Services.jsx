@@ -1,5 +1,5 @@
-import Heading from "../components/Heading";
-import ContactCards from "../components/ContactCards";
+import Heading from "../components/Heading.jsx";
+import ContactCards from "../components/ContactCards.jsx";
 import { Container } from "@mui/material";
 import * as React from 'react';
 import Typography from '@mui/material/Typography';

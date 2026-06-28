@@ -1,7 +1,7 @@
-import Heading from "../components/Heading";
-import DoctorCard from "../components/DoctorCard";
-import NewsSlider from "../components/NewsSlider";
-import ContactCards from "../components/ContactCards";
+import Heading from "../components/Heading.jsx";
+import DoctorCard from "../components/DoctorCard.jsx";
+import NewsSlider from "../components/NewsSlider.jsx";
+import ContactCards from "../components/ContactCards.jsx";
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
