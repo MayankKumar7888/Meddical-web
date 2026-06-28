@@ -23,7 +23,7 @@ import Mediacard1 from "../assets/mediacard1.png"
 import Mediacard2 from "../assets/mediacard2.png"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Articals from "../Components/Articals";
-import SectionHeading from "../components/SectionHeading";
+import Sectionheading from "../Components/Sectionheading";
 import ContactCards from "../Components/ContactCards";
 
 export default function News() {
@@ -177,7 +177,7 @@ export default function News() {
                 </Grid>
             </Container >
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <SectionHeading subHeading="Get in touch" heading="Contact" />
+                <Sectionheading subHeading="Get in touch" heading="Contact" />
                 <ContactCards />
             </Container >
         </>

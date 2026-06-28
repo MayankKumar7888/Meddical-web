@@ -14,7 +14,7 @@ import HealingIcon from '@mui/icons-material/Healing';
 import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import BloodtypeIcon from '@mui/icons-material/Bloodtype';
-import SectionHeading from "../components/SectionHeading";
+import Sectionheading from "../Components/Sectionheading";
 import DoctorCard from "../Components/DoctorCard";
 import NewsSlider from "../Components/NewsSlider";
 import ContactCards from "../Components/ContactCards";
@@ -96,7 +96,7 @@ export default function Home() {
             </Container>
             <Container maxWidth='xl'>
                 <Grid container className='ourservices-section'>
-                    <SectionHeading subHeading="Care you can believe in" heading="Our Services" />
+                    <Sectionheading subHeading="Care you can believe in" heading="Our Services" />
                     <Grid size={12} container spacing={2} sx={{ py: 4 }} >
                         <Grid size={{ xm: 12, sm: 12, md: 4, lg: 3 }} container >
                             <Grid size={6} className='service-test-box' sx={{ p: 1 }}>
@@ -232,15 +232,15 @@ export default function Home() {
                 </Grid>
             </Container>
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <SectionHeading subHeading="Trusted Care" heading="Our Doctors" />
+                <Sectionheading subHeading="Trusted Care" heading="Our Doctors" />
                 <DoctorCard />
             </Container >
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <SectionHeading subHeading="Better information, Better health" heading="News" />
+                <Sectionheading subHeading="Better information, Better health" heading="News" />
                 <NewsSlider />
             </Container >
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <SectionHeading subHeading="Get in touch" heading="Contact" />
+                <Sectionheading subHeading="Get in touch" heading="Contact" />
                 <ContactCards />
             </Container >
 

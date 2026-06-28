@@ -1,4 +1,4 @@
-import SectionHeading from "../components/SectionHeading"
+import Sectionheading from "../Components/Sectionheading"
 import ContactCards from "../Components/ContactCards"
 import { Container } from "@mui/material"
 
@@ -98,7 +98,7 @@ export default function Services() {
             </Container>
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <SectionHeading subHeading="Get in touch" heading="Contact" />
+                <Sectionheading subHeading="Get in touch" heading="Contact" />
                 <ContactCards />
             </Container >
         </>

@@ -1,4 +1,4 @@
-import SectionHeading from "../components/SectionHeading"
+import Sectionheading from "../Components/Sectionheading"
 import PageHero from "../Components/PageHero"
 import NewsSlider from "../Components/NewsSlider"
 import ContactCards from "../Components/ContactCards"
@@ -150,12 +150,12 @@ export default function Doctors() {
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <SectionHeading subHeading="Better information, Better health" heading="News" />
+                <Sectionheading subHeading="Better information, Better health" heading="News" />
                 <NewsSlider />
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <SectionHeading subHeading="Get in touch" heading="Contact" />
+                <Sectionheading subHeading="Get in touch" heading="Contact" />
                 <ContactCards />
             </Container >
         </>
