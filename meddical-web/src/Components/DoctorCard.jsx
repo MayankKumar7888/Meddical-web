@@ -31,7 +31,7 @@ const cards = [
     }
 ];
 
-export default function DoctorCard() {
+export default function Doctorcard() {
     const [active, setActive] = useState(1);
 
     useEffect(() => {

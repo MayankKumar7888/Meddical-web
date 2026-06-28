@@ -1,7 +1,7 @@
 import Heading from "../components/Heading"
-import NewsSlider from "../components/NewsSlider"
+import Newsslider from "../components/Newsslider"
 import { Container, TextField } from "@mui/material"
-import PageHero from "../components/PageHero"
+import Pagehero from "../components/Pagehero"
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
@@ -46,7 +46,7 @@ export default function Contact() {
     return (
         <>
             <Container maxWidth="xl" sx={{ py: 10 }} className="page-hero-section">
-                <PageHero
+                <Pagehero
                     title="Our Contacts"
                     breadcrumbs="Contact"
                 />
@@ -107,7 +107,7 @@ export default function Contact() {
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Better information, Better health" heading="News" />
-                <NewsSlider />
+                <Newsslider />
             </Container >
 
         </>

@@ -85,7 +85,7 @@ const cards = [
     },
 ];
 
-export default function NewsSlider() {
+export default function Newsslider() {
     const cardsPerSlide = 4;
 
     const slides = [];

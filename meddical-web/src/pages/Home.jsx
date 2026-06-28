@@ -15,9 +15,9 @@ import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import BloodtypeIcon from '@mui/icons-material/Bloodtype';
 import Heading from "../components/Heading";
-import DoctorCard from "../components/DoctorCard";
-import NewsSlider from "../components/NewsSlider";
-import ContactCards from "../components/ContactCards";
+import Doctorcard from "../components/Doctorcard";
+import Newsslider from "../components/Newsslider";
+import Contactcards from "../components/Contactcards";
 
 
 
@@ -233,15 +233,15 @@ export default function Home() {
             </Container>
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Trusted Care" heading="Our Doctors" />
-                <DoctorCard />
+                <Doctorcard />
             </Container >
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Better information, Better health" heading="News" />
-                <NewsSlider />
+                <Newsslider />
             </Container >
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Get in touch" heading="Contact" />
-                <ContactCards />
+                <Contactcards />
             </Container >
 
 

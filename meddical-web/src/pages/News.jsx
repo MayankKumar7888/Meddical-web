@@ -11,7 +11,7 @@ import {
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import PersonIcon from "@mui/icons-material/Person";
-import DoctorCard2 from "../assets/doctorcard2.png";
+import Doctorcard2 from "../assets/doctorcard2.png";
 import Doctor3 from "../assets/doctorcard3.png";
 import Doctor6 from "../assets/doctor6.jpg"
 import Doctor7 from "../assets/doctor7.jpg"
@@ -24,7 +24,7 @@ import Mediacard2 from "../assets/mediacard2.png"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Articals from "../components/Articals";
 import Heading from "../components/Heading";
-import ContactCards from "../components/ContactCards";
+import Contactcards from "../components/Contactcards";
 
 export default function News() {
     const newsData = [
@@ -95,7 +95,7 @@ export default function News() {
         },
         {
             id: 4,
-            image: DoctorCard2,
+            image: Doctorcard2,
             date: "Thursday 08, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
@@ -178,7 +178,7 @@ export default function News() {
             </Container >
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Get in touch" heading="Contact" />
-                <ContactCards />
+                <Contactcards />
             </Container >
         </>
     );
