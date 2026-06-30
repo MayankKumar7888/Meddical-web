@@ -3,85 +3,86 @@ import { Box, Grid, Card, CardContent, Typography, IconButton, Container, } from
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import MediaCard from "../assets/mediaCard.png";
-import MediaCard1 from "../assets/mediaCard1.png";
-import MediaCard2 from "../assets/mediaCard2.png";
 import { CardMedia } from "@mui/material";
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import MedicalCard from "../assets/MedicalCard.png";
+import MedicalCard1 from "../assets/MedicalCard1.png";
+import MedicalCard2 from "../assets/MedicalCard2.png";
+
 
 const cards = [
     {
         id: 1,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard
+        img: MedicalCard
     },
     {
         id: 2,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard
+        img: MedicalCard
     },
     {
         id: 3,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard
+        img: MedicalCard
     },
     {
         id: 4,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard
+        img: MedicalCard
     },
     {
         id: 5,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard1
+        img: MedicalCard1
     },
     {
         id: 6,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard1
+        img: MedicalCard1
     },
     {
         id: 7,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard1
+        img: MedicalCard1
     },
     {
         id: 8,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard1
+        img: MedicalCard1
     },
     {
         id: 9,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard2
+        img: MedicalCard2
     },
     {
         id: 10,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard2
+        img: MedicalCard2
     },
     {
         id: 11,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard2
+        img: MedicalCard2
     },
     {
         id: 12,
         subtitle: "Monday 05, September 2021 | By Author",
         title: "This Article’s Title goes Here, but not too long.",
-        img: MediaCard2
+        img: MedicalCard2
     },
 ];
 
