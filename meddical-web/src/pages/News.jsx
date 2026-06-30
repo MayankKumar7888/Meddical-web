@@ -18,14 +18,15 @@ import doctor7 from "../assets/doctor7.jpg";
 import doctor8 from "../assets/doctor8.jpg";
 import doctor9 from "../assets/doctor9.jpg";
 import doctor10 from "../assets/doctor10.jpg";
-import MediaCard from "../assets/MediaCard.png";
-import MediaCard1 from "../assets/MediaCard1.png";
-import MediaCard2 from "../assets/MediaCard2.png";
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Articals from "../components/Articals";
 import Heading from "../components/Heading";
 import ContactCards from "../components/ContactCards";
 import PageHero from "../components/PageHero";
+import MedicalCard from "../assets/MedicalCard.png";
+// import MedicalCard from "../assets/Medi"
+import MedicalCard1 from "../assets/MedicalCard1.png";
+import MedicalCard2 from "../assets/MedicalCard2.png";
 
 export default function News() {
     const newsData = [
@@ -90,7 +91,7 @@ export default function News() {
         },
         {
             id: 3,
-            image: MediaCard,
+            image: MedicalCard,
             date: "Wednesday 07, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
@@ -102,13 +103,13 @@ export default function News() {
         },
         {
             id: 5,
-            image: MediaCard1,
+            image: MedicalCard1,
             date: "Friday 09, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
         {
             id: 6,
-            image: MediaCard2,
+            image: MedicalCard2,
             date: "Saturday 10, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
