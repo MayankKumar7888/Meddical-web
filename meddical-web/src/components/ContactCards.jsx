@@ -31,7 +31,7 @@ const services = [
         subtitle2: "Sunday Emergency only"
     }
 ];
-export default function Contactcards() {
+export default function ContactCards() {
     const [selected, setSelected] = useState(1);
 
     return (

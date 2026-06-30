@@ -1,7 +1,3 @@
-import Heading from "../components/Heading.jsx";
-import DoctorCard from "../components/DoctorCard.jsx";
-import NewsSlider from "../components/NewsSlider.jsx";
-import ContactCards from "../components/ContactCards.jsx";
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
@@ -11,6 +7,10 @@ import { Box, IconButton, Grid, Container } from "@mui/material";
 import FormatQuoteIcon from "@mui/icons-material/FormatQuote";
 import { useState, useEffect } from "react";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
+import NewsSlider from "../components/NewsSlider";
+import Heading from "../components/Heading";
+import DoctorCard from "../components/DoctorCard";
+import ContactCards from '../components/ContactCards';
 
 
 
@@ -115,7 +115,7 @@ export default function About() {
             </Container >
 
             <Container maxWidth="xl" sx={{ py: 5 }}>
-                <Heading subHeading="Trusted Care" heading="Our Doctors" />
+                <Heading subHeading="Trusted Card" heading="Our Doctors" />
                 <DoctorCard />
             </Container >
 
@@ -127,6 +127,8 @@ export default function About() {
             <Container maxWidth="xl" sx={{ py: 5 }}>
                 <Heading subHeading="Get in touch" heading="Contact" />
                 <ContactCards />
+                {/* <ContactCards /> */}
+
             </Container >
         </>
     )

@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 
-export default function Sectionheading({ subHeading, heading }) {
+export default function Heading({ subHeading, heading }) {
     return (
         <Grid size={12} sx={{ pb: 5 }}>
             <Typography className="meddical-subheading" variant="h6">
