@@ -11,16 +11,16 @@ import {
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import PersonIcon from "@mui/icons-material/Person";
-import Doctorcard2 from "../assets/doctorcard2.png";
-import Doctor3 from "../assets/doctorcard3.png";
-import Doctor6 from "../assets/doctor6.webp";
-import Doctor7 from "../assets/doctor7.jpg";
-import Doctor8 from "../assets/doctor8.jpg";
-import Doctor9 from "../assets/doctor9.jpg";
-import Doctor10 from "../assets/doctor10.jpg";
-import Mediacard from "../assets/mediacard.png";
-import Mediacard1 from "../assets/mediacard1.png";
-import Mediacard2 from "../assets/mediacard2.png";
+import DoctorCard2 from "../assets/DoctorCard2.png";
+import DoctorCard3 from "../assets/DoctorCard3.png";
+import doctor6 from "../assets/doctor6.webp";
+import doctor7 from "../assets/doctor7.jpg";
+import doctor8 from "../assets/doctor8.jpg";
+import doctor9 from "../assets/doctor9.jpg";
+import doctor10 from "../assets/doctor10.jpg";
+import MediaCard from "../assets/MediaCard.png";
+import MediaCard1 from "../assets/MediaCard1.png";
+import MediaCard2 from "../assets/MediaCard2.png";
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Articals from "../components/Articals";
 import Heading from "../components/Heading";
@@ -31,7 +31,7 @@ export default function News() {
     const newsData = [
         {
             id: 1,
-            image: Doctor6,
+            image: doctor6,
             date: "Monday 05, September 2021",
             author: "By Author",
             views: 68,
@@ -42,7 +42,7 @@ export default function News() {
         },
         {
             id: 2,
-            image: Doctor7,
+            image: doctor7,
             date: "Tuesday 06, September 2021",
             author: "By Author",
             views: 75,
@@ -53,7 +53,7 @@ export default function News() {
         },
         {
             id: 3,
-            image: Doctor8,
+            image: doctor8,
             date: "Monday 05, September 2021",
             author: "By Author",
             views: 68,
@@ -64,7 +64,7 @@ export default function News() {
         },
         {
             id: 4,
-            image: Doctor9,
+            image: doctor9,
             date: "Tuesday 06, September 2021",
             author: "By Author",
             views: 75,
@@ -78,37 +78,37 @@ export default function News() {
     const articals = [
         {
             id: 1,
-            image: Doctor3,
+            image: DoctorCard3,
             date: "Monday 05, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
         {
             id: 2,
-            image: Doctor10,
+            image: doctor10,
             date: "Tuesday 06, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
         {
             id: 3,
-            image: Mediacard,
+            image: MediaCard,
             date: "Wednesday 07, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
         {
             id: 4,
-            image: Doctorcard2,
+            image: DoctorCard2,
             date: "Thursday 08, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
         {
             id: 5,
-            image: Mediacard1,
+            image: MediaCard1,
             date: "Friday 09, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
         {
             id: 6,
-            image: Mediacard2,
+            image: MediaCard2,
             date: "Saturday 10, September 2021",
             title: "This Article's Title goes Here, but not too long.",
         },
