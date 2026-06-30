@@ -8,9 +8,9 @@ import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import MailIcon from '@mui/icons-material/Mail';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import Heading from "../components/Heading.jsx";
-import NewsSlider from "../components/NewsSlider.jsx";
-import PageHero from "../components/PageHero.jsx";
+import Heading from "../components/Heading";
+import NewsSlider from "../components/NewsSlider";
+import PageHero from "../components/PageHero";
 
 
 

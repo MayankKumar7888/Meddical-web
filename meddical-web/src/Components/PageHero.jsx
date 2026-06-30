@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Breadcrumbs, Typography, Container } from "@mui/material";
 
-export default function Pagehero({ title, breadcrumbs }) {
+export default function PageHero({ title, breadcrumbs }) {
     function handleClick(event) {
         event.preventDefault();
         console.info('You clicked a breadcrumb.');
