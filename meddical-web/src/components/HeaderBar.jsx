@@ -34,7 +34,7 @@ const pages = [
     { name: 'News', path: '/news' },
     { name: 'Contact', path: '/contact' },
 ];
-export default function Header() {
+export default function HeaderBar() {
     const [open, setOpen] = React.useState(false);
     const [showSearch, setShowSearch] = React.useState(false);
 

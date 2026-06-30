@@ -14,10 +14,10 @@ import HealingIcon from '@mui/icons-material/Healing';
 import MonitorHeartIcon from '@mui/icons-material/MonitorHeart';
 import LocalHospitalIcon from '@mui/icons-material/LocalHospital';
 import BloodtypeIcon from '@mui/icons-material/Bloodtype';
-import ContactCards from "../components/ContactCards.jsx";
-import Heading from "../components/Heading"
-import DoctorCard from "../components/DoctorCard";
 import NewsSlider from "../components/NewsSlider";
+import Heading from "../components/Heading.jsx";
+import DoctorCard from "../components/DoctorCard.jsx";
+import ContactCards from "../components/ContactCards.jsx";
 
 
 
@@ -243,8 +243,6 @@ export default function Home() {
                 <Heading subHeading="Get in touch" heading="Contact" />
                 <ContactCards />
             </Container >
-
-
         </>
     )
 }

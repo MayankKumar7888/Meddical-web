@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
-import Header from "./components/Header";
+import HeaderBar from "./components/HeaderBar";
 import Footer from "./components/Footer";
+
 
 export default function Layout() {
     return (
         <div>
-            <Header />
+            <HeaderBar />
             <main>
                 <Outlet />
             </main>

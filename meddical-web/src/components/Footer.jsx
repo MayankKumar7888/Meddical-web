@@ -13,7 +13,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import { Box, Container, Typography } from '@mui/material';
 
 
-
 export default function Footer() {
     const [email, setEmail] = useState("");
     const [error, setError] = useState("");

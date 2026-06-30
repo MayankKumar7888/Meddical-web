@@ -1,4 +1,3 @@
-import Heading from "../components/Heading";
 import ContactCards from "../components/ContactCards";
 import { Container } from "@mui/material";
 import * as React from 'react';
@@ -14,6 +13,7 @@ import Button from '@mui/material/Button';
 import Doctor5 from '../assets/doctor5.png';
 import HealingIcon from '@mui/icons-material/Healing';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import Heading from "../components/Heading";
 
 
 export default function Services() {
